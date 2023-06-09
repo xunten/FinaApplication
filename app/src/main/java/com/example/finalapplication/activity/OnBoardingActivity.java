@@ -41,7 +41,7 @@ public class OnBoardingActivity extends AppCompatActivity {
         viewPager = findViewById(R.id.slider);
         dotsLayout = findViewById(R.id.dots);
         btn = findViewById(R.id.get_started_btn);
-        btnNext = findViewById(R.id.next_btn);
+//        btnNext = findViewById(R.id.next_btn);
         addDots(0);
 
         viewPager.addOnPageChangeListener(changeListener);
